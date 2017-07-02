@@ -7,19 +7,19 @@ Things you may want to cover:
 
 -Salt lake tattoo company
 
-+Home
+*Home
 	* Main carousel showcasing the shop.
 	* couple of links below that taking them to the appointment setting page and artists page.
 
-+Appointments page
+*Appointments page
   * Payment processor and any disclaimers needed for that
   * Form_for appointments with actionmailer
   * Google calendar API with payment
 
-+Contact
+*Contact
 	* Google Maps API
 	* All contact information
-	
-+Artists
+
+*Artists
 	* Carousel page for all artists and their work
 	* A little about me for each artist and style maybe???
