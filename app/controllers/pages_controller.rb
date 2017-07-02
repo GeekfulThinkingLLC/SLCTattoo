@@ -7,4 +7,8 @@ class PagesController < ApplicationController
 
   def artists
   end
+
+  def appointments
+  	@appointments = Appointment.new(appointment_params)
+  end
 end
