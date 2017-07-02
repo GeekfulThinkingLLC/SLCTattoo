@@ -1,5 +1,8 @@
 class AppointmentsController < ApplicationController
 
+	def index
+	end
+	
 	def new
 		@appointments = Appointment.new(appointment_params)
 	end
