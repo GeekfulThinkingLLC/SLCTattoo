@@ -1,3 +1,18 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.container {
+	padding-left: 100px;
+	padding-right: 100px;
+}
+.orbit-pictures li {
+	max-height: 650px;
+	max-width: 100%;
+}
+
+.menu li a {
+	text-decoration: none;
+	color: black;
+}
