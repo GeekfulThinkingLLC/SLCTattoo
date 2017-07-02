@@ -9,9 +9,9 @@ class AppointmentsController < ApplicationController
 		respond_to do |format|
 			if @appointments.save
 				AppointmentMailer.appointment_email(@consultation).deliver!
-				format.html { redirect_to contact_path, notice: "Appointment was submitted to Salt Lake Tattoo Co. Looking forward to chatting!"}
+				format.html { redirect_to appointments_path, notice: "Appointment was submitted to Salt Lake Tattoo Co. Looking forward to chatting!"}
 			else
-				format.html { redirect_to contact_path}
+				format.html { redirect_to ppointments_path}
 			end
 		end
 	end
