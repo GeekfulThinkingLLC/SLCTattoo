@@ -7,8 +7,6 @@ Things you may want to cover:
 
 -Salt lake tattoo company
 
--Overview
-  *This will have a couple of carousels showcasing the shop and appointment setting details. Nav bar for Home appointments portfolio contact. Form for setting appointments with a $100 required deposit. Footer with all disclaimers links needed and contact information. 
 -Home
 	* Main carousel showcasing the shop.
 	* couple of links below that taking them to the appointment setting page and artists page.
