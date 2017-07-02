@@ -3,6 +3,7 @@ class AppointmentMailer < ApplicationMailer
  
   def appointment_email(appointment)
     @appointment = appointment
+    mail(to: 'trevorhoward2@hotmail.com', subject: 'New Appointment')
     mail(to: 'cody.higginsdev18@gmail.com', subject: 'New Appointment')
   end
 end

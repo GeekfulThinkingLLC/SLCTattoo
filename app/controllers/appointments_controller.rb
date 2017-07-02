@@ -1,8 +1,9 @@
 class AppointmentsController < ApplicationController
 
 	def index
+		@appointments = Appointment.new
 	end
-	
+  
 	def new
 		@appointments = Appointment.new(appointment_params)
 	end
@@ -11,8 +12,8 @@ class AppointmentsController < ApplicationController
 		@appointments = Appointment.new(appointment_params)
 		respond_to do |format|
 			if @appointments.save
-				AppointmentMailer.appointment_email(@consultation).deliver!
-				format.html { redirect_to appointments_path, notice: "Appointment was submitted to Salt Lake Tattoo Co. Looking forward to chatting!"}
+				AppointmentMailer.appointment_email(@appointments).deliver!
+				format.html { redirect_to contact_path, notice: "Appointment was submitted to Salt Lake Tattoo Co. Looking forward to chatting!"}
 			else
 				format.html { redirect_to ppointments_path}
 			end
@@ -22,7 +23,7 @@ class AppointmentsController < ApplicationController
 private
 
 	def appointment_params
-		params.require(:appointments).permit(:name, :email, :phone_number, :body, :selected_day, :image)
+		params.require(:appointment).permit(:name, :email, :phone_number, :body, :selected_day, :image)
 	end
 end
 	
