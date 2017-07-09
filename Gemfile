@@ -51,3 +51,10 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+gem 'foundation-rails', '~> 6.3.1.0'
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.2'
+gem 'gritter', '~> 1.2'
+
+gem 'momentjs-rails'
+gem 'fullcalendar.io-rails'
