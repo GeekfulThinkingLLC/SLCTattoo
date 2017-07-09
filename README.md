@@ -5,21 +5,20 @@ application up and running.
 
 Things you may want to cover:
 
--Salt lake tattoo company
+* Ruby version
 
-* Home
-	*  Main carousel showcasing the shop.
-	*  couple of links below that taking them to the appointment setting page and artists page.
+* System dependencies
 
-* Appointments page
-  *  Payment processor and any disclaimers needed for that
-  *  Form_for appointments with actionmailer
-  *  Google calendar API with payment
+* Configuration
 
-* Contact
-	*  Google Maps API
-	*  All contact information
+* Database creation
 
-* Artists
-	*  Carousel page for all artists and their work
-	*  A little about me for each artist and style maybe???
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
