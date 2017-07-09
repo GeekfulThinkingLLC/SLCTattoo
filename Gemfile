@@ -28,9 +28,9 @@ end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-gem 'foundation-rails'
+gem 'foundation-rails', '~> 6.3.1.0'
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.2'
 gem 'gritter', '~> 1.2'
 
-gem 'fullcalendar-rails'
 gem 'momentjs-rails'
+gem 'fullcalendar.io-rails'
