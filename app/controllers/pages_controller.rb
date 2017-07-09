@@ -3,6 +3,7 @@ class PagesController < ApplicationController
   end
 
   def contact
+  	@appointment = Appointment.new
   end
 
   def artists

@@ -18,3 +18,7 @@ $(document).ready ->
 	      $this.val output
 	    return
 	  return
+
+	jQuery ->
+		$('.datepicker').datepicker()
+			dateFormat: 'yy-mm-dd'

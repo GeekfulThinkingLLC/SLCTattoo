@@ -12,9 +12,11 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require jquery-ui/widgets/datepicker
 //= require gritter
 //= require foundation
 //= require moment 
+//= require fullcalendar/gcal
 //= require fullcalendar
 //= require_tree .
 
