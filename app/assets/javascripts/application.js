@@ -16,18 +16,6 @@
 //= require foundation
 //= require moment 
 //= require fullcalendar
-//= require fullcalendar/gcal
-//= require fullcalendar/locale/pl
 //= require_tree .
 
-
-$('#calendar').fullCalendar({});
 $(function(){ $(document).foundation(); });
-
-var initialize_calendar;
-initialize_calendar = function() {
-  $('.calendar').each(function(){
-    var calendar = $(this)
-    calendar.fullCalendar({});
-  })
-};

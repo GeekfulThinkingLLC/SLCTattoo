@@ -1,0 +1,10 @@
+var google_cal_id = "<%= ENV.fetch("GOOGLE_CAL_API_KEY") %>";
+var google_cal_api_key = "<%= ENV.fetch("GOOGLE_CAL_ID") %>";
+$(document).ready(function() {
+    $('#calendar').fullCalendar({
+        googleCalendarApiKey: google_cal_api_key,
+        events: {
+            googleCalendarId: google_cal_id
+        }
+    });
+});
