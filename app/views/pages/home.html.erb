@@ -1,70 +1,12 @@
-
-    <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
-      <ul class="orbit-container orbit-pictures">
-        <button class="orbit-previous" aria-label="previous"><span class="show-for-sr">Previous Slide</span>&#9664;</button>
-        <button class="orbit-next" aria-label="next"><span class="show-for-sr">Next Slide</span>&#9654;</button>
-        <li class="orbit-slide is-active">
-          <%= image_tag('G0020020.JPG') %>
-        </li>
-        <li class="orbit-slide">
-          <%= image_tag('G0080060.JPG') %>
-        </li>
-        <li class="orbit-slide">
-          <%= image_tag('G0090063.JPG') %>
-        </li>
-        <li class="orbit-slide">
-          <%= image_tag('G0100064.JPG') %>
-        </li>
-      </ul>
-    </div>
-
-    <div class="row small-up-2 large-up-2">
-      <div class="column text-center">
-        <h5>Artist Numero Uno</h5>
-        <p>Bacon ipsum dolor amet spare ribs pastrami rump burgdoggen, brisket pork chop bresaola chuck flank tri-tip. Capicola flank alcatra hamburger, beef kielbasa fatback drumstick. Alcatra ham hock pork landjaeger chuck short loin kielbasa, t-bone flank. Turducken spare ribs ground round short ribs pancetta jerky.</p>        
+<div class="display-flex">
+  <% @artists.each do |a| %>
+    <div class="display-column">
+      <div class="home-card">
+        <%= a.name %>
       </div>
-      <div class="column">
-        <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
-          <ul class="orbit-container orbit-pictures">
-            <button class="orbit-previous" aria-label="previous"><span class="show-for-sr">Previous Slide</span>&#9664;</button>
-            <button class="orbit-next" aria-label="next"><span class="show-for-sr">Next Slide</span>&#9654;</button>
-            <li class="orbit-slide is-active">
-              <%= image_tag('G0020020.JPG') %>
-            </li>
-            <li class="orbit-slide">
-              <%= image_tag('G0080060.JPG') %>
-            </li>
-            <li class="orbit-slide">
-              <%= image_tag('G0090063.JPG') %>
-            </li>
-            <li class="orbit-slide">
-              <%= image_tag('G0100064.JPG') %>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="column">
-        <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
-          <ul class="orbit-container orbit-pictures">
-            <button class="orbit-previous" aria-label="previous"><span class="show-for-sr">Previous Slide</span>&#9664;</button>
-            <button class="orbit-next" aria-label="next"><span class="show-for-sr">Next Slide</span>&#9654;</button>
-            <li class="orbit-slide is-active">
-              <%= image_tag('G0020020.JPG') %>
-            </li>
-            <li class="orbit-slide">
-              <%= image_tag('G0080060.JPG') %>
-            </li>
-            <li class="orbit-slide">
-              <%= image_tag('G0090063.JPG') %>
-            </li>
-            <li class="orbit-slide">
-              <%= image_tag('G0100064.JPG') %>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="column text-center">
-        <h5>Artist Numero Dos</h5>
-        <p>Bacon ipsum dolor amet spare ribs pastrami rump burgdoggen, brisket pork chop bresaola chuck flank tri-tip. Capicola flank alcatra hamburger, beef kielbasa fatback drumstick. Alcatra ham hock pork landjaeger chuck short loin kielbasa, t-bone flank. Turducken spare ribs ground round short ribs pancetta jerky.</p>        
+      <div class="bio-card">
+        <%= a.bio %>
       </div>
     </div>
+  <% end %>
+</div>

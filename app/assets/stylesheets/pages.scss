@@ -22,3 +22,23 @@
 #calendar {
 	width: auto;
 }
+
+.display-flex {
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.home-card {
+  background-color: red;
+  margin: 20px;
+  width: 300px;
+  height: 100px;
+}
+.bio-card {
+  width: 300px;
+}
+
+.display-column {
+  flex-direction: column;
+}

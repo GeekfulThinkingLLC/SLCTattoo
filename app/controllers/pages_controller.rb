@@ -1,5 +1,7 @@
 class PagesController < ApplicationController
   def home
+    @artist = Artist.new
+    @artists = Artist.all
   end
 
   def contact
