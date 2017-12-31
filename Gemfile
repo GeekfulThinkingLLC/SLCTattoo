@@ -36,3 +36,5 @@ gem 'gritter', '~> 1.2'
 gem 'momentjs-rails'
 gem 'fullcalendar.io-rails'
 gem 'jquery-ui-rails', '~> 6.0', '>= 6.0.1'
+
+gem 'slim', '~> 3.0', '>= 3.0.9'
