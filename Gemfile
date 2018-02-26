@@ -27,8 +27,6 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-
 gem 'foundation-rails', '~> 6.3.1.0'
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.2'
 gem 'gritter', '~> 1.2'
@@ -38,3 +36,6 @@ gem 'fullcalendar.io-rails'
 gem 'jquery-ui-rails', '~> 6.0', '>= 6.0.1'
 
 gem 'slim', '~> 3.0', '>= 3.0.9'
+
+gem 'devise', '~> 4.4', '>= 4.4.1' 
+gem 'omniauth-google-oauth2', '~> 0.5.3'
